@@ -1,0 +1,17 @@
+Creating the base set up for a Flask app
+this is in order for me to have an initial
+set up so I do not need to remake everything
+every time I create an app.
+
+
+
+Flask Libraries installed:
+gunicorn - for Heroku
+SQLAlchemy - DB ORM
+Flask-Manager - To handle commands
+Flask-Migrate - Handle DB migrations
+psychogres2 - Postgres db ability
+Flask-WTF - For forms
+Flask-Testing
+Flask-Login
+Flask-Assets
