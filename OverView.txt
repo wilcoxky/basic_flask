@@ -23,6 +23,9 @@ Flask-Assets
 For python buildpack run:
 heroku buildpacks:set https://github.com/heroku/heroku-buildpack-python
 
+For multibuildpacks:
+https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app
+
 OS ENV VARS need to be set:
 Local Vars:
 DATABASE_URL='postgresql://localhost/kyle_blog'
