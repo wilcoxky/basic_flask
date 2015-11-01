@@ -20,6 +20,9 @@ Flask-Assets
 ** Remember when setting up psql run:
   CREATE DATABASE <Name of DATABASE_URL>
 
+For python buildpack run:
+heroku buildpacks:set https://github.com/heroku/heroku-buildpack-python
+
 OS ENV VARS need to be set:
 Local Vars:
 DATABASE_URL='postgresql://localhost/kyle_blog'
