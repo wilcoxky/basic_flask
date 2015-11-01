@@ -21,6 +21,10 @@ Flask-Assets
   CREATE DATABASE <Name of DATABASE_URL>
 
 OS ENV VARS need to be set:
-Local
+Local Vars:
 DATABASE_URL='postgresql://localhost/kyle_blog'
 APP_SETTINGS=config.DevelopmentConfig
+
+Heroku or other service vars
+DATABASE_URL='URL for DB'
+APP_SETTINGS=config.ProductionConfig
