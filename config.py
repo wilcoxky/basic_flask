@@ -1,8 +1,7 @@
 import os
 
+
 # Default Config
-
-
 class BaseConfig(object):
     DEBUG = False
     SECRET_KEY = '\xbf\xb0\x11\xb1\xcd\xf9\xba\x8bp\x0c...'

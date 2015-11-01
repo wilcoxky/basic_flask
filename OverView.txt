@@ -3,7 +3,8 @@ this is in order for me to have an initial
 set up so I do not need to remake everything
 every time I create an app.
 
-
+Everything is set up at a basic level
+and open to customization
 
 Flask Libraries installed:
 gunicorn - for Heroku
@@ -15,3 +16,11 @@ Flask-WTF - For forms
 Flask-Testing
 Flask-Login
 Flask-Assets
+
+** Remember when setting up psql run:
+  CREATE DATABASE <Name of DATABASE_URL>
+
+OS ENV VARS need to be set:
+Local
+DATABASE_URL='postgresql://localhost/kyle_blog'
+APP_SETTINGS=config.DevelopmentConfig
